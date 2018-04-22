@@ -110,7 +110,7 @@ h1 {
 .st15{fill:#280E0E;}
 
 
-header {
+.header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,7 +124,7 @@ header {
   margin: 0.5em 1.5em 0 1.5em;
 }
 
-header p {
+.header p {
   font-size: 1.2em;
 }
 
@@ -246,7 +246,7 @@ nav a:hover {
 
 .section-title {
   padding: 1.5em 0.5em 1.5em;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -359,13 +359,13 @@ max. viewport-width 1280px => (1280-60)*0,31=> 378.2px => medium size
     margin-right: 30px;
   }
 
-  header {
+  .header {
     justify-content: space-between;
     text-align: right;
     padding-right: 0;
   }
 
-  header,
+  .header,
   .hero {
     margin-left: 30px;
     margin-right: 30px;
@@ -441,7 +441,7 @@ max. viewport-width 1280px => (1280-60)*0,31=> 378.2px => medium size
 @media screen and (min-width: 1181px) {
 
   /* fixed margins over 1280px */
-  header {
+  .header {
     max-width: 1120px;
   }
 
@@ -449,7 +449,7 @@ max. viewport-width 1280px => (1280-60)*0,31=> 378.2px => medium size
     max-width: 1180px;
   }
 
-  header,
+  .header,
   main {
     margin-left: auto;
     margin-right: auto;
