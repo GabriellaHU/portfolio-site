@@ -85,11 +85,29 @@ h1 {
 
 /*-------------------HEADER-----------------------*/
 
-#logo {
+.logo {
   display: inline-block;
   width: 160px;
   height: 160px;
 }
+
+/* Illustrator auto-generated code for the svg portrait */
+.st0{display:none;}
+.st1{display:inline;fill:#280E0E;}
+.st2{fill:#D2EDEF;}
+.st3{fill:#84613D;}
+.st4{fill:#AA5750;}
+.st5{fill:#9C4B3E;}
+.st6{fill:#F3F0DD;}
+.st7{fill:#CC9D72;}
+.st8{fill:#2C1010;}
+.st9{fill:#160A09;}
+.st10{fill:#A97C50;}
+.st11{fill:#C49A6C;}
+.st12{fill:#D81F28;}
+.st13{fill:#B9845D;}
+.st14{fill:#EEC299;}
+.st15{fill:#280E0E;}
 
 
 header {
@@ -337,7 +355,7 @@ nav a:hover {
 
 @media screen and (min-width: 751px) {
 
-  #logo {
+  .logo {
     margin-right: 30px;
   }
 
