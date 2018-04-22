@@ -312,11 +312,11 @@ nav a:hover {
 /*--------------------------------------------------------------------*/
 
 /* max picture sizes:
-  max. viewport-width 750px => 750px => large size
-  max. viewport-width 1050px => (1050-60)*0,48=> 475.2px => medium size
-  max. viewport-width 1280px => (1280-60)*0,31=> 378.2px => medium size
+max. viewport-width 750px => 750px => large size
+max. viewport-width 1050px => (1050-60)*0,48=> 475.2px => medium size
+max. viewport-width 1280px => (1280-60)*0,31=> 378.2px => medium size
 
- */
+*/
 
 @media screen and (min-width: 551px) {
 
@@ -418,8 +418,8 @@ nav a:hover {
 
 @media screen and (min-width: 1051px) {
 
-   /* ------------------ NAV -----------------*/
-   /* fixed menu margins over 1051px */
+  /* ------------------ NAV -----------------*/
+  /* fixed menu margins over 1051px */
 
   .menu-items {
     max-width: 1050px;
@@ -440,13 +440,13 @@ nav a:hover {
 
 @media screen and (min-width: 1181px) {
 
-   /* fixed margins over 1280px */
+  /* fixed margins over 1280px */
   header {
     max-width: 1120px;
   }
 
   main {
-      max-width: 1180px;
+    max-width: 1180px;
   }
 
   header,
